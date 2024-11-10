@@ -47,5 +47,8 @@ To compile and run the program, use the following commands in your terminal:
 `--directions`: Calculates and displays directions between the specified source and target nodes.
 
 ## Graphical Map Preview
-![Map GIF](gifs/Monroe.gif)
-![Map GIF2](gifs/NYSize.gif)
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="gifs/Monroe.gif" alt="Monroe Map Paths" width="300">
+  <img src="gifs/NYSizing.gif" alt="NY Map Resizing" width="300">
+</div>
+

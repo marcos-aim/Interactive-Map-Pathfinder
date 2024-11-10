@@ -11,12 +11,6 @@ Interactive Map Pathfinder is a Java-based program that visualizes street maps a
 
 ## Functionality
 
-### Classes and Methods
-- **Graph**: Manages a collection of nodes and edges, and provides methods for adding nodes/edges and finding the shortest path using Dijkstra's algorithm.
-- **Node and Edge**: Represent intersections and roads, respectively. Nodes store coordinates and connected edges, while edges store information about connected nodes and traversal costs.
-- **Path**: Represents a sequence of edges between a start and end node.
-- **QuadTree**: A data structure used to optimize spatial queries by partitioning the 2D space, making mouse-based node selection efficient.
-
 ### Mouse Controls
 The program responds to various mouse interactions for intuitive map exploration and pathfinding:
 
@@ -27,6 +21,12 @@ The program responds to various mouse interactions for intuitive map exploration
 
 ## Graphical Map Preview
 ![Gameplay GIF](gifs/Monroe.gif)
+
+### Classes and Methods
+- **Graph**: Manages a collection of nodes and edges, and provides methods for adding nodes/edges and finding the shortest path using Dijkstra's algorithm.
+- **Node and Edge**: Represent intersections and roads, respectively. Nodes store coordinates and connected edges, while edges store information about connected nodes and traversal costs.
+- **Path**: Represents a sequence of edges between a start and end node.
+- **QuadTree**: A data structure used to optimize spatial queries by partitioning the 2D space, making mouse-based node selection efficient.
 
 ## Input File Format
 The input file must contain two types of records for intersections (nodes) and roads (edges), formatted as follows:

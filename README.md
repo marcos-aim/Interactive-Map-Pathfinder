@@ -25,6 +25,9 @@ The program responds to various mouse interactions for intuitive map exploration
 - **Dragging with Right Button**: Sets a new starting point for the path calculation and dynamically displays the path.
 - **Dragging with Left Button**: Sets a new ending point for the path calculation and dynamically displays the path.
 
+## Graphical Map Preview
+![Gameplay GIF](gifs/Monroe.gif)
+
 ## Input File Format
 The input file must contain two types of records for intersections (nodes) and roads (edges), formatted as follows:
 
@@ -33,9 +36,7 @@ The input file must contain two types of records for intersections (nodes) and r
 - **Edges (Roads)**: Each edge entry begins with an `r`, followed by a unique ID, and the IDs of the two intersections it connects.
   - `r r1 a b`
 
-
 ## Compilation and Execution
-
 To compile and run the program, use the following commands in your terminal:
 
 1. **Compile**:
@@ -46,9 +47,6 @@ To compile and run the program, use the following commands in your terminal:
 `--show`: Displays the map graphically.
 `--directions`: Calculates and displays directions between the specified source and target nodes.
 
-## Graphical Map Preview
-
-![Gameplay GIF](gifs/Monroe.gif)
 ![Gameplay GIF2](gifs/NYSizing.gif)
 
 

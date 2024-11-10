@@ -52,3 +52,9 @@ To compile and run the program, use the following commands in your terminal:
   <img src="gifs/NYSizing.gif" alt="NY Map Resizing" width="300">
 </div>
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="gifs/Monroe.gif" alt="Monroe Map Paths" style="flex: 1 1 45%; max-width: 45%; height: auto;">
+  <img src="gifs/NYSizing.gif" alt="NY Map Resizing" style="flex: 1 1 45%; max-width: 45%; height: auto;">
+</div>
+
+

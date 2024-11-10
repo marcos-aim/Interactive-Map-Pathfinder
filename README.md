@@ -52,16 +52,5 @@ To compile and run the program, use the following commands in your terminal:
   <img src="gifs/NYSizing.gif" alt="NY Map Resizing" width="300">
 </div>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="gifs/Monroe.gif" alt="Description of first GIF" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="gifs/NYSizing.gif" alt="Description of second GIF" width="100%">
-    </td>
-  </tr>
-</table>
-
 
 

@@ -45,3 +45,7 @@ To compile and run the program, use the following commands in your terminal:
  ```
 `--show`: Displays the map graphically.
 `--directions`: Calculates and displays directions between the specified source and target nodes.
+
+## Graphical Map Preview
+![Map GIF](gifs/Monroe.gif)
+![Map GIF2](gifs/NYSize.gif)
